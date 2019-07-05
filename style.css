@@ -1,0 +1,26 @@
+form {
+    display: inline-block; /*入力フォームと追加を横並びに*/
+}
+
+h1 {
+    size: 17px;
+}
+
+
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.to-do-list{
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+
+
+
+
+
