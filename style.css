@@ -2,10 +2,6 @@ form {
     display: inline-block; /*入力フォームと追加を横並びに*/
 }
 
-h1 {
-    size: 17px;
-}
-
 
 .form-group {
     text-align: center;
