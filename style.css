@@ -2,7 +2,6 @@ form {
     display: inline-block; /*入力フォームと追加を横並びに*/
 }
 
-
 .form-group {
     text-align: center;
     padding-bottom: 25px;
