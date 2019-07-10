@@ -22,34 +22,40 @@
     <h1>To-Do
         <small>List</small>
     </h1>
-    <form role="form">　　　　　　　　
+    <form action="add"  method="post">　　　　　　　　
         <input type="text" class="form-control" placeholder="Your Task" name="task">
     </form>
-    <button type="button" class="btn btn btn-primary">追加</button>
+    <form action="add"  method="post">　
+    <button type="submit" class="btn btn btn-primary">追加</button>
+    </form>
 </div>
 
 <div class="to-do-list">
+    <form action = "delete" method="post">
     <ul class="list-group" style="max-width: 400px;">
 
         <li class="list-group-item">ネトプロ最終課題
-            <button type="button" class="close" aria-label="閉じる">
+            <button type="submit" class="close" aria-label="閉じる">
                 　<span aria-hidden="true">&times;</span>
             </button>
         </li>
 
         <li class="list-group-item">積み本の消化
-            <button type="button" class="close" aria-label="閉じる">
+            <button type="submit" class="close" aria-label="閉じる">
                 　<span aria-hidden="true">&times;</span>
             </button>
         </li>
 
         <li class="list-group-item">ゲームのレベル上げ
-            <button type="button" class="close" aria-label="閉じる">
+            <button type="submit" class="close" aria-label="閉じる">
                 　<span aria-hidden="true">&times;</span>
             </button>
+<!--            <input class="del-button" type="submit" value="&times;">-->
+<!--            <span aria-hidden="true">&times;</span>-->
         </li>
 
     </ul>
+    </form>
 </div>
 <div> </div>
 
